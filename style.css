@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.parallax {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.conteudo {
+    padding: 50px;
+    margin: 15px;
+}
+
+.conteudo > p {
+    color: #777;
+    text-align: justify;
+}
+
+.conteudo > h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header {
+    background: white url(imagens/galaxia.jpg) no-repeat;
+    background-size: cover;
+    box-shadow: 0px 0px 20px 0px rgb(52, 6, 219);
+    padding: 50px;
+    text-align: center;
+    position: relative;
+    top: 25px;
+}
+
+header > h1, header > p {
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+    font-size: 1.5em;
+}
+
+header > h1 {
+    font-size: 3em;
+}
+
+nav {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #5016d8;
+}
+
+nav > a {
+    text-decoration: none;
+    margin: 15px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+nav > a:hover {
+    background-color: #2a0b72;
+    transition: 1s;
+}
+
+#primeiro {
+    background-image: url(imagens/glowing-spaceship-orbits-planet-starry-galaxy-generated-by-ai.jpg);
+}
+
+#segundo {
+    background-image: url(imagens/pexels-philippedonn-1169754.jpg);
+}
+
+#terceiro {
+    background-image: url(imagens/imagem3.jpg);
+}
+
+#quarto {
+    background-image: url(imagens/imagem4.jpg);
+}
+
+#quinto {
+    background-image: url(imagens/imagem5.jpg);
+}
+
+#sexto {
+    background-image: url(imagens/imagem6.jpg);
+}
